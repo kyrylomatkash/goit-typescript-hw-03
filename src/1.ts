@@ -5,7 +5,7 @@
 */
 
 class Student {
-  constructor(public name: string,
-    public age: number,
-    public grade: string) {}
+  constructor(public readonly name: string,
+    public readonly age: number,
+    public readonly grade: string) {}
 }
